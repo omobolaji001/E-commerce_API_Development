@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """Defines Order item model
 """
-from models.base import Base
+from models.base import Base, BaseModel
 from sqlalchemy import Column, Integer, Numeric, ForeignKey, DateTime
 from datetime import datetime
 
 
-class OrderItem(Base):
+class OrderItem(BaseModel, Base):
     """Represents an Order item
     """
     __tablename__ = 'order_items'

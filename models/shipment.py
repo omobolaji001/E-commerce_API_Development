@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Defines the Shipment model
 """
-from models.base import Base
+from models.base import Base, BaseModel
 from sqlalchemy import (
     Column, Integer, DateTime, Numeric,
     String, ForeignKey
@@ -10,7 +10,7 @@ from sqlalchemy.orm import relationship
 from datetime import datetime
 
 
-class Shipment(Base):
+class Shipment(BaseModel, Base):
     """Represents an Order
     """
     __tablename__ = 'shipments'
