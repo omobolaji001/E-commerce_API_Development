@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""TradeHub Flask Application
+"""Ecommerce Flask Application
 """
 import os
 from flask import Flask, jsonify, render_template, make_response

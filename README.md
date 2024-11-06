@@ -1,1 +1,1 @@
-## Ecommerce API development
+## Ecommerce API development for Snapnet practical test
